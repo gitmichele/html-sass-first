@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1 {
+  color: #26b466;
+}
+.container .counter {
+  display: flex;
+  align-items: center;
+}
+.container .counter button {
+  background-color: #26b466;
+  color: #fff;
+  margin: 20px;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
